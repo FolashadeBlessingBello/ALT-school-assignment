@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Application form for AltSchool Africa" />
+    <title>Sign In</title>
+  </head>
+  <body>
+    <header>
+      <nav aria-label="Global navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="form.html">Sign In</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="main">
+      <h1>Sign in</h1>
+      <p>
+        Enter your email address and password to secuely log in to AltSchool
+        Student Portal
+      </p>
+
+      <form action="#" method="post">
+        <p>
+          <label for="email">Email</label><br />
+          <input type="email" id="email" name="email" required placeholder="john.doe@example.com"/>
+        </p>
+
+        <p>
+          <label for="password">Password</label><br />
+          <input
+            type="password"
+            id="password"
+            name="password"
+            minlength="8"
+            placeholder="********"
+            required
+          />
+        </p>
+
+        <button type="submit">Proceed to Dashboard</button>
+        <p>Forgot your password? <a href="#">Reset Now!</a></p>
+        <p>or</p>
+        <button>Login with Google</button>
+      </form>
+    </main>
+
+    <br />
+    <br />
+    <br />
+    <footer>
+      <address>24 Babani, Ebute metta, Lagos, Nigeria</address>
+      <p>&copy; 2026 Folashade Bello. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
